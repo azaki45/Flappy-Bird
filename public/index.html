@@ -8,19 +8,20 @@
     <title>Flappy Bird</title>
 </head>
 <body>
-    
+    <button class="reset">RESET</button>
     <div class="frame">
-        <!-- <button class="reset">RESET</button> -->
+        
         <canvas></canvas>
-        <!-- <div class="score">
-            <p>Score: 0 </p>
+        <div id="reset">
+            <button class="reset">RESET</button>
         </div>
         <div class="highscore">
             <p></p>
-        </div> -->
+        </div>
         
     </div>
 
+    <script src="https://cdn.socket.io/4.6.1/socket.io.min.js"></script>
     <script src="./js/classes/Player.js"></script>
     <script src="./js/classes/Pillar.js"></script>
     <script src="./js/eventListeners.js"></script>

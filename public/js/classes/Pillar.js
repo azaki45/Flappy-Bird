@@ -1,6 +1,6 @@
 class Pillar{
 
-    constructor(x,y,top){
+    constructor({x,y,top}){
         this.x = x; // x coordinate of the pillar
         this.y = y; // starting y coordinate of the pillar = 0;
         this.top = top; // ending of the first piece of the pillar

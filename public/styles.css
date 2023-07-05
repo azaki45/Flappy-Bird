@@ -11,5 +11,21 @@ canvas {
 
 
 body {
+    background-color: aqua;
     margin: 0;
+}
+
+/* .score {
+    border: 1px solid;
+}
+
+.highscore {
+    border: 1px solid;
+} */
+
+.reset {
+    margin-top: 50;
+    margin-left: 100;
+    align-self: center;
+    text-align: center;
 }

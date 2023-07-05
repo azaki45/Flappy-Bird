@@ -1,6 +1,6 @@
 class Player{
 
-    constructor(x,y,radius,vely)
+    constructor({x,y,radius,vely,color})
     {
         this.x = x;
         this.y = y;
@@ -8,13 +8,14 @@ class Player{
         this.vely = vely;
         this.gravity = 0.8;               ;
         this.lift = -15;
+        this.color = color;
     }
 
     draw()
     {
         ctx.beginPath();
         ctx.arc(this.x,this.y,this.radius,0,Math.PI*2,false);
-        ctx.fillStyle = 'red'
+        ctx.fillStyle = this.color;
         ctx.fill();
     }
 
