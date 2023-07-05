@@ -1,0 +1,15 @@
+.frame {
+    text-align: center;
+    align-items: center;
+}
+
+canvas {
+    border: 1px solid;
+    background-image: url('./assets/flappy-bg.jpg');
+    margin-top: 100px;
+}
+
+
+body {
+    margin: 0;
+}
